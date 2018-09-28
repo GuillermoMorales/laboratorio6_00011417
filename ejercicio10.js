@@ -1,3 +1,4 @@
+//Ejercicio 10
 var nombre = prompt("Ingrese el Nombre: ");
 var apellido = prompt("Ingrese el Apellido: ");
 var fecha = prompt("Ingrese el Fecha Nacimiento: ");
@@ -11,11 +12,17 @@ function imprimir(n,a,f,t,c)
     array.push(f);
     array.push(t);
     array.push(c);
-    var f = JSON.stringify(array);
+    var f = {nombre:n,apellido:a,fecha:f,numero:t,correo:c};
     return f;
 }
 
 console.log(imprimir(nombre,apellido,fecha,numero,correo));
+
+
+//Ejercicio11
+
+
+
 
 
 let array2=["juan","pedro"];

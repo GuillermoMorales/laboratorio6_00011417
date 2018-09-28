@@ -19,7 +19,6 @@ function imprimir(n,a,f,t,c)
 console.log(imprimir(nombre,apellido,fecha,numero,correo));
 
 
-//Ejercicio11
 
 
 
